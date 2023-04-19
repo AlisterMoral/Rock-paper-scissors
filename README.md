@@ -1,5 +1,13 @@
 # Rock-paper-scissors
 Rock paper scissors js
+I've start the rock paper scissor project creating a "getComputerChoice" function who will randomly return rock paper and scissor.
+
+After this i've created the function to play rounds
+then the loop for multiple rounds and see who is the winnter.
+
+I've notice that in my code if we type wrong input the game we still play and treat the wrong input into 'tie' game,
+so i rewright the code to have valide choice and a promp who invite the player to input a right choice. 
+
 
 j'ai commencé le projet pierre feuille ciseaux 
 par cree une fonction "getComputerChoice" qui rend aléatoirement pierre feuille ou ciseaux 
