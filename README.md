@@ -1,4 +1,9 @@
 # Rock-paper-scissors
+
+ In the odin path we have to rework on the rock paper scissor
+so i decide to make it look like one of my favorite manga Dragon ball 
+
+
 Rock paper scissors js
 I've start the rock paper scissor project creating a "getComputerChoice" function who will randomly return rock paper and scissor.
 

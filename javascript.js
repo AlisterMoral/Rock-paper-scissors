@@ -53,9 +53,9 @@ function draw(userChoice, computerChoice) {
 function checkGameOver() {
   if (userScore === 5 || computerScore === 5 || roundCount === 5) {
     if (userScore > computerScore) {
-      endGame('You win!');
+      endGame('You win the Budokai tournament');
     } else if (computerScore > userScore) {
-      endGame('You lose!');
+      endGame('You lose the budokai tournament');
     } else {
       endGame("It's a tie!");
     }

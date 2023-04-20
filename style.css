@@ -1,0 +1,103 @@
+body {
+    background-image: url("image/arena.png");
+    background-size: cover;
+  
+}
+
+.container {
+  background-color: #2E9AFE; 
+  padding: 20px;
+  margin: 50px auto;
+  max-width: 600px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color: #ffdb00;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.scoreboard p {
+  color: #ffdb00;
+  font-size: 18px;
+  margin: 0;
+}
+
+.scoreboard #user-score {
+  color: #db3e00;
+}
+
+.scoreboard #computer-score {
+  color: red;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #ffd700; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-image: url("image/cloud.png"); 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.btn:hover {
+  background-color: #222;
+  color: #ffdb00;
+}
+
+#result {
+  color: #ffdb00;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#reset {
+  display: none;
+  background-color: #db3e00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#reset:hover {
+  background-color: #ffdb00;
+  color: #222;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #2E9AFE;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+}
