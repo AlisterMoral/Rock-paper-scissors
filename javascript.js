@@ -31,6 +31,7 @@ switch (userChoice + computerChoice) {
 }
 
 }
+
 function win(userChoice, computerChoice) {
   userScore++;
   document.getElementById('user-score').textContent = userScore;
@@ -92,5 +93,5 @@ buttons.forEach(button => {
 });
 
 const resetButton = document.getElementById('reset');
-resetButton.style.display = 'none';
+
 }

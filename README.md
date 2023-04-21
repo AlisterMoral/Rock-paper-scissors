@@ -2,9 +2,9 @@
 
  In the odin path we have to rework on the rock paper scissor
 so i decide to make it look like one of my favorite manga Dragon ball 
+so i style the game to looks like it using css then i just make it playble by using the DOM in js 
 
 
-Rock paper scissors js
 I've start the rock paper scissor project creating a "getComputerChoice" function who will randomly return rock paper and scissor.
 
 After this i've created the function to play rounds
