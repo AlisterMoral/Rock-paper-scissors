@@ -54,9 +54,9 @@ function draw(userChoice, computerChoice) {
 function checkGameOver() {
   if (userScore === 5 || computerScore === 5 || roundCount === 5) {
     if (userScore > computerScore) {
-      endGame('You win the Budokai tournament');
+      endGame('You win the Budokai ! ');
     } else if (computerScore > userScore) {
-      endGame('You lose the budokai tournament');
+      endGame('You lose the Budokai ! ');
     } else {
       endGame("It's a tie!");
     }
@@ -72,26 +72,19 @@ function endGame(message) {
   document.getElementById('computer-score').textContent = computerScore;
 }
 
-buttons.forEach(button => {
-  button.disabled = true;
-});
+function resetGame() {
+  userScore = 0;
+  computerScore = 0;
+
+  document.getElementById('user-score').textContent = userScore;
+  document.getElementById('computer-score').textContent = computerScore;
+  document.getElementById('result').textContent = '';
+
+  buttons.forEach(button => {
+    button.disabled = false;
+  });
+}
 
 const resetButton = document.getElementById('reset');
 resetButton.style.display = 'block';
 resetButton.addEventListener('click', resetGame);
-
-function resetGame() {
-userScore = 0;
-computerScore = 0;
-
-document.getElementById('user-score').textContent = userScore;
-document.getElementById('computer-score').textContent = computerScore;
-document.getElementById('result').textContent = '';
-
-buttons.forEach(button => {
-  button.disabled = false;
-});
-
-const resetButton = document.getElementById('reset');
-
-}
